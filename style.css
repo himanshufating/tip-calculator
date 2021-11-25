@@ -1,3 +1,4 @@
+
 *{
     padding: 10x;
     box-sizing: border-box;
@@ -6,9 +7,20 @@ body{
     font-family: 'Times New Roman', cursive;
     height: 100vh;
     background: rgb(12, 12, 12);
-    background: radial-gradient(circle, rgb(208, 165, 228) 0%, rgb(10, 10, 10) 100%);
+    background: radial-gradient(circle, rgb(243, 185, 109) 0%, rgb(10, 10, 10) 100%);
     font-size: 22px;
     position: relative;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 1px 1px 13px rgb(0 0 0 / 10%);
 }
 h1{
     background-color: rgba(179, 96, 161, 0.884);
@@ -18,22 +30,61 @@ h1{
     border: 1px solid #000000;
   text-align:center;
 }
-form{
-  text-align:center;
-  width:100%;
-  border:1px #000 solid;
+p{
+    color: #5a5959;
 }
-input,select{
-  width:800px;
-  padding:10px;
-  margin:10px; 
-  border:3px #000 solid
+.control{
+    margin: 25px 0;
 }
-button
-{
-  width:500px;
- font-weight: 1000;
-  font-size:20px;
-  background:radial-gradient(circle, rgb(92, 94, 94) 0%, rgb(59, 55, 55) 100%);
-border:3px #000 solid
+input{
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid #595858;
+    color: #7e7e7e;
+    font-size: 23px;
+    margin-top: 20px;
 }
+select{
+    border: none;
+    outline: none;
+    border: 1px solid #000000;
+    color: #7e7e7e;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 11px 34px;
+    border-radius: 25px;
+    width: 75%;
+}
+button#calculate{
+    font-family: 'Times New Roman', cursive;
+    color: rgb(7, 7, 7);
+    background: #d6d4d4;
+    border: 2px solid;
+    font-size: 17px;
+    border-radius: 25px;
+    padding: 14px 29px;
+    margin: 25px;
+    transition: all .3s ease;
+}
+button#calculate:hover{
+    color: #020202;
+    border-color: #070707;
+    background: #ff8c00;
+}
+.totalTip{
+    background-color: rgb(243, 185, 109)7;
+    border-color: #000000;
+    border-radius: 18px;
+    padding: 25px 0 35px;
+}
+p.tip{
+    font-size: 38px;
+    color: #008c00;
+    margin-top: 10px;
+}
+h1.total{
+    color: black;
+}
+

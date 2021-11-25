@@ -1,4 +1,3 @@
-setTimeout(function(){
 let calculate = document.querySelector('#calculate');
 
 calculate.addEventListener('click', () => {
@@ -16,6 +15,6 @@ calculate.addEventListener('click', () => {
     total = total.toFixed(2);
     
     document.getElementById('tip').innerHTML = total;
-50000);
+    console.log(total);
 }
 

@@ -16,6 +16,6 @@ calculate.addEventListener('click', () => {
     total = total.toFixed(2);
     
     document.getElementById('tip').innerHTML = total;
-}5000);
+}50000);
 }
 

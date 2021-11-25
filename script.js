@@ -15,6 +15,4 @@ calculate.addEventListener('click', () => {
     total = total.toFixed(2);
     
     document.getElementById('tip').innerHTML = total;
-    console.log(total);
-}
-
+})
